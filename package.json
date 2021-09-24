@@ -1,5 +1,6 @@
 {
-  "name": "react-native-hold-menu",
+  "name": "@vikalp_p/react-native-hold-menu",
+  "private": false,
   "version": "0.0.0-development",
   "description": "A performant, easy to use hold to open context menu for React Native powered by Reanimated.",
   "main": "lib/commonjs/index.js",
