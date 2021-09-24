@@ -105,5 +105,8 @@
   "eslintIgnore": [
     "node_modules/",
     "lib/"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
