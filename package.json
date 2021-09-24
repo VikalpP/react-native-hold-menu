@@ -1,6 +1,6 @@
 {
   "name": "react-native-hold-menu",
-  "version": "0.1.1",
+  "version": "0.0.0-development",
   "description": "A performant, easy to use hold to open context menu for React Native powered by Reanimated.",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
@@ -23,11 +23,12 @@
     "reanimated",
     "menu"
   ],
-  "repository": "https://github.com/enesozturk/react-native-hold-menu",
-  "author": "Enes Ozturk (https://ozturkenes.com)",
+  "repository": "https://github.com/VikalpP/react-native-hold-menu",
+  "author": "Vikalp Panseriya (vikalppanseriya@gmail.com)",
+  "originalAuthor": "Enes Ozturk (https://ozturkenes.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/enesozturk/react-native-hold-menu/issues"
+    "url": "https://github.com/VikalpP/react-native-hold-menu/issues"
   },
   "homepage": "https://enesozturk.github.io/react-native-hold-menu",
   "scripts": {
@@ -37,7 +38,8 @@
     "copy-dts": "copyfiles -u 1 \"src/**/*.d.ts\" lib/typescript",
     "release": "release-it",
     "example": "yarn --cwd example",
-    "bootstrap": "yarn install && yarn example"
+    "bootstrap": "yarn install && yarn example",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "@gorhom/portal": "^1.0.3",
@@ -72,7 +74,8 @@
     "react-native-reanimated": "2.1.0",
     "react-test-renderer": "~16.13.1",
     "release-it": "^14.4.1",
-    "typescript": "~4.0.0"
+    "typescript": "~4.0.0",
+    "semantic-release": "^18.0.0"
   },
   "peerDependencies": {
     "react": "*",
